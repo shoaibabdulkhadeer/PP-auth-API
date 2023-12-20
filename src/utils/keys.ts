@@ -1,0 +1,8 @@
+export enum key {
+  PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
+    MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgFSVqUcVrY3hvUKjFXlyFImrpA6u
+    1AKDb8rEuMCirpwURBG9Dy7lPjOym8dt3VkhNLZCRz52dU4ElImoDxO+QDUZ2lFg
+    b0KUy+DVtvc5vMd4UGuJuhbsvL7Vg/3ogL1VbpiZnQR/avgDoEQwJ/65JCpxCo3A
+    mO154FMnWV79n2qRAgMBAAE=
+    -----END PUBLIC KEY-----`,
+}

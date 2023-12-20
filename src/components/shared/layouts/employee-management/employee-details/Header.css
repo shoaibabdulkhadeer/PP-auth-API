@@ -1,0 +1,69 @@
+#emp_management {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  width: 90%;
+  border: none;
+}
+.emp_management {
+  border-radius: 0.5rem;
+  transition: 0.2s;
+ background: #dbdbdb;
+ 
+}
+.emp_management:hover {
+  border-radius: 0.5rem;
+}
+
+.emp_management.active {
+  background-color: rgb(102, 108, 255);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #fff;
+  transform: scale(1.05);
+}
+.btnCancel {
+  /* width: 100%; */
+  /* background-color: #20a882; */
+  background-color: #11c5a0;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 20px;
+  margin: 0.1rem 0.2rem;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  transition: 0.2s;
+  display:flex;
+  place-items: center;
+  
+}
+.btnCancel:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+@media (max-width: 720px) and (min-width: 500px) {
+  #emp_management {
+    padding: 0.5rem;
+    font-size: 10px;
+  }
+  .btnCancel {
+    padding: 0.5rem;
+    font-size: 10px;
+  }
+}
+@media (max-width: 555px) {
+  #emp_management {
+    padding: 0.5rem 0.4rem;
+    font-size: 6.3px;
+  }
+  .btnCancel {
+    padding: 0.5rem 0.4rem;
+    font-size: 6.3px;
+  }
+
+}

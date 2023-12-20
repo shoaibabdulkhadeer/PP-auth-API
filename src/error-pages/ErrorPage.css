@@ -1,0 +1,129 @@
+.outer-err-container {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.err-container {
+  box-shadow:
+    rgba(0, 0, 0, 0.12) 0px 1px 3px,
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: white !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.server-err-message .ant-empty-description {
+  font-size: x-large !important;
+  font-weight: bold;
+  font-family: "Poppins" !important;
+}
+
+.error-403 .ant-empty-description {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Poppins" !important;
+}
+
+.err-text,
+.err-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 13px;
+  font-weight: 600;
+  color: black !important;
+  font-family: "Poppins";
+}
+
+/* CSS */
+.button-87 {
+  margin: 10px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  background-image: linear-gradient(
+    45deg,
+    #4f55ff 0%,
+    #767aff 51%,
+    #4f55ff 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1024px) {
+  .error-403 .ant-empty-image {
+    height: 200px !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  .server-err-message .ant-empty-description {
+    font-size: 80%;
+  }
+  .error-403 .ant-empty-description {
+    font-size: x-large;
+  }
+  .server-err-message .ant-empty-image {
+    height: 210px !important;
+  }
+  .error-403 .ant-empty-image {
+    height: 190px !important;
+  }
+
+  .err-text,
+  .err-btn {
+    font-size: 13px;
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .err-container {
+    width: 80%;
+  }
+  .server-err-message .ant-empty-description {
+    font-size: 60%;
+    margin: 0 1%;
+  }
+  .server-err-message .ant-empty-image {
+    height: 240px !important;
+  }
+
+  .err-text,
+  .err-btn {
+    font-size: 12px;
+    margin: 0 5%;
+  }
+  .button-87 {
+    width: 75%;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,95 @@
+
+
+.short-paragraph {
+  padding: 0px 20px;
+  white-space: nowrap;     
+  overflow: hidden;        
+  text-overflow: ellipsis; 
+  max-width: 300px;        
+}
+.short-paragraph:hover {
+  text-overflow: unset;    
+  white-space: nowrap;     
+  overflow: hidden;
+}
+.buttons-parents{
+  margin-bottom: 16px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 18fr;
+}
+
+.buttons-parents button:nth-child(1)::before {
+  content: 'Active Projects';
+}
+
+.buttons-parents button:nth-child(2)::before {
+  content: 'Upcoming Projects';
+}
+
+.buttons-parents button:nth-child(3)::before {
+  content: 'Past Projects';
+}
+
+
+.active-project-row {
+    color: rgba(76, 78, 100, 0.87) !important;
+    font-family: "Roboto",sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.875rem;
+    line-height: 1.5;
+   
+    
+  }
+  
+  .past-project-row {
+    color: rgba(76, 78, 100, 0.87) !important;
+    font-family: "Roboto",sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  .upcoming-project-row {
+    color: rgba(76, 78, 100, 0.87) !important;
+    font-family: "Roboto",sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  @media screen and (max-width:498px) {
+    .buttons-parents{
+      display:flex;
+      flex-direction: row !important;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      place-items: center !important;
+      margin-bottom: 16px !important;
+    }
+    .buttons-parents button{
+      margin-bottom: 10px;
+      width:6rem;
+    }
+    .buttons-parent button:last-child {
+      margin-bottom: 0;
+    }
+    .buttons-parents button:nth-child(1)::before {
+      content: 'Active';
+    }
+  
+    .buttons-parents button:nth-child(2)::before {
+      content: 'Upcoming';
+    }
+  
+    .buttons-parents button:nth-child(3)::before {
+      content: 'Past';
+    }
+  }

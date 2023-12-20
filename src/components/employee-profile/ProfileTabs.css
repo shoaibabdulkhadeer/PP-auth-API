@@ -1,0 +1,148 @@
+
+    @media screen and (max-width: 498px) {
+      .tabs-parent{
+        display:grid;
+        grid-template-columns: 1fr;
+        column-gap: 2rem;
+        box-sizing: border-box !important; 
+        padding: 5px 30px !important;
+       
+        
+      }
+      .ant-btn.tabs-export-buttons {
+        font-size: 13px !important; 
+        margin-bottom: 8px;
+        margin-top:3px;
+      
+      }
+      button.tabs-buttons{
+        font-size: 13px !important; 
+        margin-top:8px !important;
+       
+      }
+    }
+    
+    
+    @media screen and (min-width:498px) and (max-width: 768px) {
+      .tabs-parent{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        box-sizing: border-box !important; 
+        padding:9px;
+        
+      }
+      .ant-btn.tabs-export-buttons {
+        font-size: 13px !important; 
+      
+      }
+      button.tabs-buttons{
+        font-size: 13px !important; 
+      }
+    }
+
+
+
+    @media screen and (min-width:768px) and (max-width: 1023px) {
+      .tabs-parent{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 2rem;
+        box-sizing: border-box !important; 
+        padding:11px;
+        
+      }
+      .ant-btn.tabs-export-buttons {
+        font-size: 13px !important; 
+      }
+      button.tabs-buttons{
+        font-size: 13px !important; 
+      }
+    }
+    @media screen and (min-width:1024px) and (max-width: 1450px) {
+      .tabs-parent{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        box-sizing: border-box !important; 
+        padding:11px;
+        
+      }
+      .ant-btn.tabs-export-buttons {
+        font-size: 13px !important; 
+        margin-left:88px !important;
+   
+      
+      }
+      button.tabs-buttons{
+        font-size: 13px !important; 
+      }
+      .grid-child-a{
+        display:flex;
+      
+      }
+      .grid-child-a{
+        display:flex;
+        margin-right: 1rem;
+      }
+      .grid-child-b{
+        display:flex;
+        margin-right: 1rem;;
+      }
+      .grid-child-c{
+        display:flex;
+        margin-right: 1rem;;
+      }
+      .grid-child-d{
+        display:flex;
+        margin-right: 1rem;;
+      }
+      .grid-child-e{
+        display:flex;
+     
+      }
+    }
+    @media screen and (min-width:1450px) and (max-width: 2560px) {
+      .tabs-parent{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        box-sizing: border-box !important; 
+        padding:11px;
+        
+      }
+      .ant-btn.tabs-export-buttons {
+        font-size: 14px !important; 
+        margin-left:88px;
+   
+      
+      }
+      button.tabs-buttons{
+        font-size: 14px !important; 
+      }
+      .grid-child-a{
+        display:flex;
+        margin-right: 1rem;
+      
+      }
+      .grid-child-a{
+        display:flex;
+        margin-right: 1rem;
+      }
+      .grid-child-b{
+        display:flex;
+        margin-right: 1rem;
+      }
+      .grid-child-c{
+        display:flex;
+        margin-right: 1rem;;
+      }
+      .grid-child-d{
+        display:flex;
+        margin-right: 1em;;
+      }
+      .grid-child-e{
+        display:flex;
+     
+      }
+     
+    }
+

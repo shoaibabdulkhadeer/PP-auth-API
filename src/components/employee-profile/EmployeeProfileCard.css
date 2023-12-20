@@ -1,0 +1,51 @@
+
+.emp-det-title{
+    color: #9495A2 !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    margin:1rem 0;
+}
+.emp-det{
+    font-size: 15px;
+    font-weight:400;
+    font-family: Roboto, sans-serif; 
+    margin-left:24px;
+    color:rgba(76, 78, 100, 0.87);
+
+}
+
+.emp-profile .ant-card-body{
+    padding:0px 25px;
+}
+.emp-profile-card li div div h4.ant-list-item-meta-title{
+    color: #9495A2 !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+
+}
+
+.ant-card.ant-card-bordered{
+    box-shadow: rgba(76, 78, 100, 0.22) 0px 2px 10px 0px;
+}
+
+.emp-profile-div .ant-card{
+    margin-bottom: 2.8rem !important;
+}
+
+
+
+.emp-profile-details{
+
+    display:grid;
+    
+}
+
+@media (min-width:610px) and (max-width: 986px){
+    .emp-profile-details{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}

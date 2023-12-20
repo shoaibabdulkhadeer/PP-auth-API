@@ -1,0 +1,28 @@
+.cerificate .css-dev-only-do-not-override-pr0fja.ant-modal .ant-modal-title{
+    color: #71727e !important;
+}
+
+.cerificate .ant-table-thead >tr>th{
+    background:#61C0C2!important;
+    color: #ffff !important;
+}
+.cerificate .ant-table-tbody >tr >td{
+    background:  #ffff!important;
+    color: #6d6d6d;
+    font-size: 13px;
+  }
+
+  .upload-btn{
+    background-color: #565cff !important;
+    margin:0.6rem 0;
+    font-family:"Roboto",sans-serif;
+    letter-spacing: 0.15px !important;
+    color: #ffff;
+}
+.cert_label .ant-col.ant-form-item-label label{
+    font-size:1rem !important;
+    letter-spacing: 0.15px !important;
+    font-weight: 500 !important;
+    color: rgba(76, 78, 100, 0.87)!important;
+    font-family:"Roboto",sans-serif;
+}

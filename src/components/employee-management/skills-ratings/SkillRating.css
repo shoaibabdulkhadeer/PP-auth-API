@@ -1,0 +1,25 @@
+.card-title {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 14px;
+  width: 100px;
+  word-break: break-all;
+}
+.rating-text {
+  color: rgb(137, 135, 137);
+  font-size: 12px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+}
+.skill-tag {
+  /* background: #3e8c8f; */
+  background: #4e4e4e75;
+  margin: 0;
+  border-radius: 10px 0px 10px 0px;
+  padding: 0.2rem 0.3rem;
+  color: rgb(255, 252, 255);
+  font-size: 12px;
+}
+.delete-modal{
+  padding: 0px !important;
+}

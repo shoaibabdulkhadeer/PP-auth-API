@@ -1,0 +1,32 @@
+.activeProjects  .ant-table-thead >tr>th{
+    background: #61C0C2 !important;
+    color: #ffff;
+}
+.activeProjects .ant-table-tbody >tr >td{
+    background:  #ffff;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color:   #6d6d6d!important
+  }
+
+.pastProjects .ant-table-thead >tr>th{
+    background:#f49595!important;
+    color: #ffff;
+}
+.pastProjects .ant-table-tbody >tr >td{
+    background:  #FFFF!important;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color:   #6d6d6d!important
+  }
+
+  .upcomingProjects .ant-table-thead >tr>th{
+    background:rgb(248, 173, 94)!important;
+    color: #ffff;
+}
+.upcomingProjects .ant-table-tbody >tr >td{
+  background:  #ffffff!important;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color:   #6d6d6d!important
+}

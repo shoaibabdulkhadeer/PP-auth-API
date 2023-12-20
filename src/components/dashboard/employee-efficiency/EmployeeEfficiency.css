@@ -1,0 +1,353 @@
+/* DASHBOARD TOPBAR */
+.emp-dashboard-topbar {
+  padding-bottom: 1%;
+}
+.dept-dropdown {
+  width: 100%;
+  box-shadow:
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+  border-radius: 10px;
+}
+
+/* TOTAL EMPLOYEE BOX */
+.total-employee-container {
+  padding: 0 !important;
+  border-radius: 10px;
+  height: 130px;
+  box-shadow:
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+  background-color: white;
+}
+.total-employee-image {
+  height: 130px;
+}
+.dept-name {
+  padding-left: 1%;
+  color: rgb(102, 108, 255);
+  font-weight: bolder;
+}
+.total-employee-count {
+  margin: 3% 0 0 40%;
+  padding: 0.5% 0.5% 0 0;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 50%;
+  color: rgb(102, 108, 255);
+  background-color: rgba(102, 107, 255, 0.215);
+  width: 55px;
+  height: 55px;
+}
+.total-employee-text {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/* PIE CHART CSS */
+.piechart-container {
+  border-radius: 10px;
+  margin-top: 4%;
+  box-shadow:
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+  background-color: white;
+}
+
+.table-row-pointer:hover {
+  cursor: pointer;
+}
+
+/* ON BENCH TABLE */
+.on-bench-card,
+.allocation-lt8-card,
+.allocation-gte8-card {
+  box-shadow:
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+  border-radius: 10px;
+  max-height: 413px;
+  height: 100%;
+}
+
+.on-bench .ant-table-thead > tr > th {
+  background-color: #6691e7 !important;
+  color: whitesmoke !important;
+  font-size: medium;
+  font-weight: bold;
+}
+.on-bench .ant-table-tbody > tr > td {
+  background-color: whitesmoke !important;
+  color: rgba(76, 78, 100, 0.87);
+  font-size: small;
+}
+
+.on-bench-card-title {
+  font-size: large;
+  background-color: white;
+}
+
+/* ALLOCATION LESS THAN TABLE */
+
+.allocation-lt8 .ant-table-thead > tr > th {
+  background-color: #ecb431 !important;
+  color: whitesmoke !important;
+  font-size: medium;
+  font-weight: bold;
+}
+.allocation-lt8 .ant-table-tbody > tr > td {
+  background-color: whitesmoke !important;
+  font-size: small;
+  color: rgba(76, 78, 100, 0.87);
+}
+
+.allocation-lt8-card-title {
+  font-size: large;
+}
+
+
+/* ALLOCATION GREATER THAN TABLE */
+.allocation-gte8 .ant-table-thead > tr > th {
+  background-color: yellowgreen !important;
+  color: whitesmoke !important;
+  font-size: medium;
+  font-weight: bold;
+}
+.allocation-gte8 .ant-table-tbody > tr > td {
+  background-color: whitesmoke !important;
+  font-size: small;
+  color: rgba(76, 78, 100, 0.87);
+}
+.allocation-gte8-card-title {
+  font-size: large;
+  background-color: white;
+}
+
+.err-message400 {
+  margin-top: 10%;
+  font-size: 30px;
+  mix-blend-mode: multiply;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  /* TOTAL EMPLOYEE BOX */
+  .total-employee-container img {
+    width: 90px;
+    height: 130px;
+  }
+
+  .total-employee-text {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .on-bench-card,
+  .allocation-lt8-card,
+  .allocation-gte8-card {
+    max-height: 411px;
+    height: 100%;
+  }
+
+  /* ALLOCATION LESS THAN TABLE */
+  .allocation-lt8 .ant-table-thead > tr > th {
+    font-size: small;
+  }
+  .allocation-lt8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+
+  /* ALLOCATION GREATER THAN TABLE */
+  .allocation-gte8 .ant-table-thead > tr > th {
+    font-size: small;
+  }
+  .allocation-gte8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  
+  .dept-dropdown {
+    margin: 2% 0 !important;
+  }
+  /* TOTAL EMPLOYEE BOX */
+  .total-employee-container img {
+    width: 80px;
+    height: 125px;
+  }
+
+  .total-employee-text {
+    font-size: 12px;
+  }
+  .dept-name {
+    font-weight: 750;
+  }
+
+  .total-employee-count {
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* ON BENCH TABLE */
+  .on-bench-card,
+  .allocation-lt8-card,
+  .allocation-gte8-card {
+    max-height: 406px;
+    height: 100%;
+  }
+  .on-bench-card .ant-card-body {
+    padding: 3% !important;
+  }
+  .on-bench .ant-table-thead > tr > th {
+    font-size: small;
+  }
+  .on-bench .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+
+  /* ALLOCATION LESS THAN TABLE */
+  .allocation-lt8-card-title {
+    font-size: small;
+  }
+  .allocation-lt8-card .ant-card-body {
+    padding: 3%;
+  }
+  .allocation-lt8 .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 1%;
+  }
+  .allocation-lt8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+    padding: 3%;
+  }
+
+  /* ALLOCATION GREATER THAN TABLE */
+  .allocation-gte8-card-title {
+    font-size: small;
+  }
+  .allocation-gte8-card .ant-card-body {
+    padding: 3%;
+  }
+  .allocation-gte8 .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 1%;
+  }
+  .allocation-gte8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  /* TOTAL EMPLOYEE BOX */
+  .total-employee-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .total-employee-container img {
+    width: 85px;
+    height: 125px;
+  }
+
+  .total-employee-text {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  /* ON BENCH TABLE */
+  .on-bench-card .ant-card-body {
+    padding: 3%;
+  }
+  .on-bench .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 2%;
+  }
+  .on-bench .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+
+  /* ALLOCATION LESS THAN TABLE */
+  .allocation-lt8 .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 2%;
+  }
+  .allocation-lt8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+
+  /* ALLOCATION GREATER THAN TABLE */
+  .allocation-gte8 .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 2%;
+  }
+  .allocation-gte8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+  .allocation-gte8-card-title {
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 430px) {
+  /* TOTAL EMPLOYEE BOX */
+  .total-employee-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .total-employee-container img {
+    width: 85px;
+    height: 125px;
+  }
+
+  .total-employee-text {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  /* ON BENCH TABLE */
+  .on-bench-card .ant-card-body {
+    padding: 3%;
+  }
+  .on-bench .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 1%;
+  }
+  .on-bench .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+
+  /* ALLOCATION LESS THAN TABLE */
+  .allocation-lt8 .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 1%;
+  }
+  .allocation-lt8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+
+  /* ALLOCATION GREATER THAN TABLE */
+  .allocation-gte8 .ant-table-thead > tr > th {
+    font-size: small;
+    padding: 1%;
+  }
+  .allocation-gte8 .ant-table-tbody > tr > td {
+    font-size: smaller;
+  }
+  .allocation-gte8-card-title {
+    font-size: 85%;
+  }
+}

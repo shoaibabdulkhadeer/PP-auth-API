@@ -1,0 +1,98 @@
+.basic-info .css-dev-only-do-not-override-pr0fja {
+  margin: 0;
+}
+.basic-info
+  .css-dev-only-do-not-override-pr0fja.ant-col-24.ant-form-item-label {
+  padding: 0 !important;
+}
+
+.basic_info_container{
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.basic_info_side_img {
+  width: 100%;
+  display: block;
+}
+.basic_info_side_img img{
+  object-fit: contain;
+}
+/* LABEL CSS */
+.basic-info .css-dev-only-do-not-override-pr0fja.ant-form-item .ant-form-item-label >label{
+  font-size: 14px;
+  color:rgba(76, 78, 100, 0.87);
+ font-family: "Roboto",sans-serif;
+ font-weight: 500;
+}
+/* INPUT FIELD */
+.basic-info .css-dev-only-do-not-override-pr0fja.ant-input{
+  font-size: 0.775rem;
+  color:rgba(100, 96, 76, 0.87) !important;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+}
+.css-dev-only-do-not-override-pr0fja.ant-picker .ant-picker-input input{
+  font-size: 0.775rem;
+  color:rgba(100, 96, 76, 0.87) !important;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+}
+.basic-info .css-dev-only-do-not-override-pr0fja.ant-select-single .ant-select-selector{
+  font-size: 0.775rem;
+color:rgba(76, 78, 100, 0.87);
+font-family: "Roboto",sans-serif;
+font-weight: 500;
+}
+.basic-info
+  .css-dev-only-do-not-override-pr0fja.ant-form-item
+  .ant-form-item-explain-error {
+  font-size: 10.5px !important;
+}
+.basic-info
+  .css-dev-only-do-not-override-pr0fja.ant-form-item
+  .ant-form-item-explain {
+  font-size: 10.5px !important;
+}
+.basic-info .ant-form-item {
+  padding: 0;
+}
+
+.basic-info .ant-select-selector {
+  margin-top: 0px !important ;
+}
+ .css-dev-only-do-not-override-pr0fja.ant-picker-dropdown .ant-picker-cell {
+  padding: 0 !important;
+}
+.basic-info .ant-picker-body{
+  height: 190px !important;
+}
+.css-dev-only-do-not-override-pr0fja.ant-picker-dropdown
+  .ant-picker-cell
+  .ant-picker-cell-inner {
+  font-size: 13px !important;
+}
+.css-dev-only-do-not-override-pr0fja.ant-picker-dropdown
+  .ant-picker-date-panel
+  .ant-picker-body {
+  padding: 10px 10px !important;
+}
+ .css-dev-only-do-not-override-pr0fja.ant-picker-dropdown .ant-picker-date-panel{
+    width: 100% !important;
+   
+}
+@media (max-width:720px){
+  .basic_info_container{
+    display: block;
+   
+  }
+  .basic_info_side_img {
+
+    display: none;
+  }
+}
+@media (max-width:970px){
+  .basic-info .css-dev-only-do-not-override-pr0fja.ant-form-item .ant-form-item-label >label{
+    font-size: 12px;
+  
+  }
+}

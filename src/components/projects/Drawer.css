@@ -1,0 +1,240 @@
+.error-message {
+    color: red; 
+  }
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: rgb(47, 49, 49);
+  color: rgb(251, 251, 251);
+  height: 60px;
+  padding:1rem 0.2rem !important;
+  font-weight: 500;
+}
+
+.table-cell{
+  padding: 0px 0px !important;
+}
+
+.odd-row {
+  background-color:#ffffff  ; 
+}
+
+.even-row {
+  background-color: #f5f5f5; 
+}
+
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.circle-container{
+  display: inline-flex;
+}
+
+.red-asterisk {
+  color: red;
+}
+
+.full-skill-name{
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: "Roboto",sans-serif !important;
+  color: rgba(76, 78, 100, 0.87);
+}
+
+.tabrow{
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+.ant-btn.button-DrawerSubmit:hover {
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+   color:#fff !important;
+}
+.button-cancel:hover {
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+}
+.ant-btn.button-cancel{
+  color: white !important;
+  background-color: #ff4d4f ; 
+}
+.ant-btn.button-AddMember{
+  color: white;
+  background-color: #666cff;
+  margin-bottom: 3px;
+  margin-left: -12px;
+}
+.ant-btn.button-AddMember:hover{
+  color: white !important;
+  background-color: #666cff !important;
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+}
+.ant-btn.button-DrawerSubmit{
+  color: white;
+  background-color: #666cff;
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-left: 10px;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.buttonInnerContainer{
+  padding-top: 30px; 
+  margin-left: 190px;
+}
+
+.projects-short-paragraph {
+  margin-left: 15px;
+  max-width: 300px; 
+  max-height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: max-height 0.3s;
+  color: gray;
+}
+.projects-table-data{
+  color: gray;
+}
+.editiconbtn{
+  cursor: pointer !important;
+  color: #ffc000;
+   font-size: 24px;
+    margin-left: 10px;
+}
+.editiconbtn:hover{
+   transform: scale(1.2) !important;
+   transition: 0.3s !important;
+}
+.ant-drawer .ant-drawer-title{
+  color: gray;
+}
+.closable{
+  position: "absolute";
+              top: 10;
+              right: 10;
+              margin-right: "10px";
+              margin-top: "13px";
+}
+.ant-row {
+  display: "flex" !important; 
+  justify-content: "right" !important;
+}
+
+.ant-picker.datePicker{
+  width:100% !important;
+  color: "#2563eb" !important;
+} 
+
+.ant-row.Add-Member-Table-Button{
+  display: flex !important;
+  justify-content: right !important;
+}
+.FolderOpenOutlined{
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Roboto',sans-serif;
+}
+.card{
+  width: 100%; 
+  font: 'Roboto',sans-serif;
+}
+.project-header{
+  color: #857c7c;
+  font-family: 'Roboto',sans-serif;
+}
+.ant-btn.AddProject-button{
+  color: white;
+                background-color: #666cff;
+                height: 2.3rem !important;
+                font-family: 'Roboto',sans-serif !important;
+}
+.ant-btn.AddProject-button:hover {
+  color: white !important;
+  background-color: #666cff !important;
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+}
+.Project-Skeleton-div{
+  display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 200px
+}
+.Projectname-Container{
+  display:flex;
+  align-items:center;
+}
+.ant-form-item .ant-form-item-label{
+  font-family: 'Roboto',sans-serif !important;
+}
+.ant-radio-wrapper{
+font-family: 'Roboto',sans-serif !important;
+color: rgba(50, 50, 50, 0.88);
+}
+.projects-pagination{
+  margin: 1rem 0;
+  float: right;
+}
+.projectsname-label{
+  color: rgba(77, 77, 77, 0.88);
+}
+.searchable-dropdown{
+  width: 100%; 
+}
+.hour-field{
+  width: 80%;
+}
+.Drawer-datePicker .ant-picker-body {
+  height: 190px !important; 
+  font-size: 12px; 
+  padding: 0%;
+}
+.ant-picker-content{
+  margin: -10px;
+  padding: -30px;
+}
+.Drawer-datePicker .ant-picker-dropdown .ant-picker-cell{
+  padding: 1px;
+}
+.ant-drawer-body::-webkit-scrollbar {
+  width: 10px !important; 
+  
+}
+.ant-drawer-body::-webkit-scrollbar-thumb {
+  background-color: #A8A8A8 !important;
+  border-radius: 7px !important; 
+}
+
+.ant-drawer-body::-webkit-scrollbar-track {
+  background: #fff !important;
+}
+
+.custom-scrollbar{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  padding-right:40px;
+  margin-right: -20px;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #A8A8A8 !important; 
+  border-radius: 6px; 
+}
+

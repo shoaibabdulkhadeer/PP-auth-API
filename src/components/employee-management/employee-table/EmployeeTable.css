@@ -1,0 +1,33 @@
+.pagination.css-dev-only-do-not-override-pr0fja.ant-btn{
+    padding: 0 !important;
+    
+
+}
+.emp-list .ant-table-thead > tr > th {
+    background:#61C0C2!important;
+    color: #fff !important;
+    font-size: 13px;
+  }
+  /* .ant-table-thead >tr>th{
+    background: #61C0C2 !important;
+    color: #ffff !important;
+  } */
+  
+  /* Table Body */
+  .emp-list .ant-table-tbody > tr > td {
+    background:  #ffff!important;
+    color: #6d6d6d;
+    font-size: 13px;
+  }
+  
+  .ant-switch-checked {
+    background-color: rgb(135, 208, 104) !important;
+  }
+  .emp-list .ant-table-cell.table-cell {
+    font-family: "Roboto",sans-serif !important;
+    color: #6d6d6d;
+}
+.table_content{
+  font-size: 0.875rem;
+  line-height: 1.5
+}

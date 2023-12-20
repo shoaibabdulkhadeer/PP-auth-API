@@ -1,0 +1,121 @@
+.header_model_text{
+     color: #555151;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+}
+.header-model-fn{
+  font-size: 19px;
+  font-weight: 550;
+  color:#666CFF;
+}
+.header-model-un{
+  font-size:14px;
+}
+.ant-btn.logout-btn{
+  background-color: #d60f1a !important;
+}
+.ant-btn.logout-btn:hover{
+  background-color: #c90812 !important;
+}
+
+.header-btn.ant-btn{
+  background-color: #fff;
+}
+.header-btn.ant-btn:hover{
+  background-color: #fff !important;
+}
+
+.parent_greet_name_header{
+  /* background-color: #FD6527; */
+  /* background-color: #FFDE3C; */
+  /* font-family:'Roboto', sans-serif!important; */
+  font-family:'Poppins', sans-serif!important;
+  font-weight: 400 !important;
+  /* color:black !important; */
+  color:#008000 !important;
+  font-size:14px;
+  height:2rem;
+  display:flex;
+  place-items: center;
+  border-radius:8px;
+}
+.header_greet_name{
+ padding:1rem;
+  
+}
+
+@media (max-width: 910px) {
+     .header_greet_name {
+      display: none ! important;
+      }
+
+ }
+ @media (max-width: 600px) {
+   .title-header{
+     display: none !important
+   } 
+
+}
+ .header-avatar{
+  background-color: #666CFF;
+  font-size: 20px;
+ }
+
+ .ant-modal-content{
+   background-color:rgba(255, 255, 255, 1) ! important;
+ }
+
+
+ .header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 2rem;
+     position: sticky;
+     top: 0px;
+     z-index: 1;
+     background-color: #fff ;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
+ }
+ 
+
+ .staricon{
+  color:#fb8a00;
+ transition: transform 0.2s;
+  padding: 5px;
+  font-size: 15px !important;
+  font-weight: bold !important;}   
+
+.staricon:hover {
+ font-size: 20px !important;
+ transition: 0.3s;
+}
+
+
+.isDefault {
+  background-color: yellow; 
+}
+
+.dropbtn{
+  border: 1px solid rgb(139, 139, 255) !important;
+
+}
+
+.dropbtn{
+  color:rgb(102, 108, 255) !important;
+}
+
+.switchMenu{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}
+
+.dropmenuitems{
+  background-color: rgb(255, 255, 255);
+  margin: 2px 0px !important;
+}
+
+.dropmenuitems:hover{
+  background-color: rgb(243, 243, 243) !important;
+
+}

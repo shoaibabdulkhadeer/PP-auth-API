@@ -1,0 +1,40 @@
+
+.ant-menu-item-selected {
+    background-color: #61C0C2 !important; 
+    color: white !important;
+  }
+  .ant-menu-item-selected h5 {
+    color: white !important;
+  }
+  .ant-menu-item-selected p {
+    color: white !important;
+  }
+.menu-titles{
+    margin: 0 !important;
+    color: grey !important;
+    align-items: center !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 2 !important;
+    padding-left: 0px !important;
+}
+.sub-menu{
+    color:grey;
+    font-family:'Roboto', sans-serif;
+    padding-left: 20px !important;
+}
+.ant-menu-item{
+    padding-left: 5px !important;
+}
+.ant-menu-submenu-title{
+    padding-left: 5px !important;
+}
+
+.menu-icon{
+    color:green;
+    background-color:rgb(238, 238, 238);
+    padding:5px;
+    border-radius:5px;
+}
+
+
+  

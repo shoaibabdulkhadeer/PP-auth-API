@@ -1,0 +1,183 @@
+.custom-table .ant-table-thead > tr > th {
+  background-color: #61C0C2 !important;
+  font-family: "Roboto",sans-serif !important;
+  color: white !important;
+  height: 60px;
+  font-weight: 500;
+  padding:1rem 0.2rem !important;
+}
+.table-cell{
+  padding: 0px 0px !important; 
+}
+  
+.skills-table-data{
+  color: grey;
+}
+  .odd-row {
+    background-color:#ffffff  ; 
+  }
+  
+  .even-row {
+    background-color: #f5f5f5; 
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .circle-active {
+    background-color: green; 
+  }
+  
+  .circle-inactive {
+    background-color: red; 
+  }
+  
+  .circle-container{
+    display: inline-flex;
+  }
+
+  .full-skill-name{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+
+
+.editiconbtn-skills{
+  cursor: pointer !important;
+  color:#FFBA00;
+  font-size: 24px;
+}
+.editiconbtn:hover{
+   transform: scale(1.2) !important;
+   transition: 0.3s !important;
+}
+.ant-drawer-title{
+  font-family: "Roboto",sans-serif !important;
+  color: rgba(76, 78, 100, 0.87);
+}
+.ant-drawer .ant-drawer-title{
+  color: gray;
+}
+.short-paragraph {
+  margin-left: 10px;
+  max-width: 300px; 
+  max-height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: max-height 0.3s;
+  color: gray;
+}
+.SkillName-Container{
+  display:flex;
+  align-items:center;
+}
+.ant-drawer-extra.anticon.Skill-closable{
+  position: absolute !important;
+              top: 10 !important;
+              right: 10 !important;
+              margin-right: 10px !important;
+              margin-top: 13px !important;
+}
+.ant-btn.button-Skills-Cancel{
+  color: white !important;
+  background-color: #ff4d4f !important
+}
+.ant-btn.button-Skills-Submit{
+  color: white !important;
+  background-color: #666cff !important
+}
+.ant-btn.button-Add-skill{
+  color: white !important;
+  background-color: #666cff !important;
+  height: 2.3rem;
+  font-family: 'Roboto',sans-serif !important;
+}
+.ant-btn.button-Skills-Cancel:hover{
+  color: white !important;
+  background-color: #ff4d4f !important;
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+}
+.ant-btn.button-Skills-Submit:hover{
+  color: white !important;
+  background-color: #666cff !important;
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+}
+.ant-btn.button-Add-skill:hover{
+  color: white !important;
+  background-color: #666cff !important;
+  transform: scale(1.05) !important;
+   transition: 0.3s !important;
+}
+.skills-buttons-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.table-icons{
+  display: inline-flex;
+            column-gap: 20px;
+            align-items: center;
+            margin-right: -40px;
+}
+.model-line{
+  color: #211F43;
+   font-size: 16px
+}
+.model-button-container{
+  display: flex;
+   justify-content: center;
+}
+.skills-card{
+  width: 100%;
+  font-family: "Roboto"
+}
+.skill-icon{
+  margin-right: 8px;
+   font-size: 18px
+}
+.skills-skeleton{
+  display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 200px;
+}
+.skill-header{
+  color: #857c7c;
+}
+.ant-switch-checked {
+  background-color: rgb(135, 208, 104) !important;
+}
+.ant-col .ant-form-item-label{
+    font-family: 'Roboto',sans-serif !important;
+    color: rgba(87, 87, 87, 0.88);
+}
+.ant-radio-wrapper{
+  font-family: 'Roboto',sans-serif !important;
+  color: rgba(50, 50, 50, 0.88);
+}
+.skills-pagination{
+  margin: 1rem 0;
+   float: right;
+}
+.status-skillname{
+  color: #666cff;
+}
+.skillname-label{
+  color: rgba(63, 63, 63, 0.88);
+}
+.red-asterisk{
+  color: red;
+}
